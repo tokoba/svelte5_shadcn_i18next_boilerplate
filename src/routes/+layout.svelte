@@ -19,6 +19,9 @@ export const i18nContext: Writable<i18n> = getI18nStore()
 let { children } = $props()
 </script>
 
+<svelte:head>
+    <title>Svelte-i18next Boilerplate</title>
+</svelte:head>
 <ModeWatcher />
 <NavigationBar />
 {@render children()}
