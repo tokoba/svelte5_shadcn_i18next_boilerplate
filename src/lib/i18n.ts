@@ -1,11 +1,12 @@
 import i18next from 'i18next'
-// import LanguageDetector from 'i18next-browser-languagedetector'
-// import HttpBackend from 'i18next-http-backend'
-// import resourcesToBackend from 'i18next-resources-to-backend';
 import { createI18nStore } from 'svelte-i18next'
-// 言語ファイルをインポートします。
 import enResource from '../locales/en/resource.json';
 import jaResource from '../locales/ja/resource.json';
+import frResource from '../locales/fr/resource.json';
+import deResource from '../locales/de/resource.json';
+import itResource from '../locales/it/resource.json';
+import esResource from '../locales/es/resource.json';
+import zhResource from '../locales/zh/resource.json';
 
 const resources = {
     en: {
@@ -14,57 +15,40 @@ const resources = {
     ja: {
         resource: jaResource,
     },
+    fr: {
+        resource: frResource,
+    },
+    de: {
+        resource: deResource,
+    },
+    it: {
+        resource: itResource,
+    },
+    es: {
+        resource: esResource,
+    },
+    zh: {
+        resource: zhResource,
+    },
 };
 console.log(resources)
 
-/* https://github.com/NishuGoel/svelte-i18next svelte-wrapper */
-/* reference : https://github.com/NishuGoel/svelte-i18next/blob/main/example/package.json
- * pnpm i svelte-i18next i18next
- * pnpm i i18next-browser-languagedetector
- * pnpm i i18next-http-backend
- * 
-*/ 
-/* https://www.i18next.com/overview/getting-started */
+/* svelte-wrapper of i18next
+ * https://github.com/NishuGoel/svelte-i18next 
+ * example of svelte project using i18next
+ * https://github.com/NishuGoel/svelte-i18next/blob/main/example/package.json
+ * the official i18next site
+ * https://www.i18next.com/overview/getting-started */
 await i18next
-// .use(customBackend)
-// .on('failedLoading', (lng, ns, msg) => console.error(msg))
-// .use(resourcesToBackend((language: string, namespace: string) => import(`/locales/${language}/${namespace}.json`)))
-// .on('failedLoading', (lng, ns, msg) => console.error(msg))
-// .use(HttpBackend)
-// .use(LanguageDetector)
 .init({
     // lng: 'en',
     fallbackLng: 'en',
-    supportedLngs: ['en', 'ja'],
+    supportedLngs: ['en', 'ja', 'fr', 'de', 'it', 'es', 'zh'],
     compatibilityJSON: 'v4',
     debug: true,
     ns: "resource",
     resources: resources,
-    // resources: {
-    //     en: {
-    //         translation: {
-    //             hello: 'hello world',
-    //         },
-    //     },
-    //     ja: {
-    //         translation: {
-    //             hello: 'こんにちは',
-    //         },
-    //     },
-    // },
-    // interpolation: {
-    //     escapeValue: false, // not needed for svelte as it escapes by default
-    // },
-    // cleanCode: true,
-    // backend: {
-    //     loadPath: "/locales/{{lng}}/{{ns}}.json",
-    // },
-    // detection: {
-    //     order: ["querystring", "localStorage", "navigator"],
-    //     caches: ["localStorage"],
-    //     lookupQuerystring: "lng",
-    //     lookupLocalStorage: "locale",
-    // },
+    cleanCode: true,
 })
 
 export default () => createI18nStore(i18next)
