@@ -1,0 +1,130 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "file": "_app/immutable/entry/app.CGGHZZMl.js",
+    "name": "entry/app",
+    "src": ".svelte-kit/generated/client-optimized/app.js",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper.CmsKOCeN.js",
+      "_runtime.BA54F5W-.js",
+      "_store.Xw69ZH3z.js",
+      "_disclose-version.BUSkuIA1.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.-G1YgAyy.js",
+    "name": "nodes/0",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_disclose-version.BUSkuIA1.js",
+      "_runtime.BA54F5W-.js",
+      "_i18next.DUFf20pf.js",
+      "_preload-helper.CmsKOCeN.js",
+      "_index.StKBPifa.js"
+    ],
+    "dynamicImports": [
+      "_browser-ponyfill.DEEVcJG2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/0.CE_KPBoY.css"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.Sa0lGoIp.js",
+    "name": "nodes/1",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_disclose-version.BUSkuIA1.js",
+      "_legacy.DkTdIhOY.js",
+      "_runtime.BA54F5W-.js",
+      "_store.Xw69ZH3z.js",
+      "_entry.Bdk3vF3U.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/nodes/2.ByqS9PgI.js",
+    "name": "nodes/2",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_disclose-version.BUSkuIA1.js",
+      "_legacy.DkTdIhOY.js",
+      "_runtime.BA54F5W-.js",
+      "_store.Xw69ZH3z.js",
+      "_i18next.DUFf20pf.js"
+    ]
+  },
+  "_browser-ponyfill.DEEVcJG2.js": {
+    "file": "_app/immutable/chunks/browser-ponyfill.DEEVcJG2.js",
+    "name": "browser-ponyfill",
+    "isDynamicEntry": true
+  },
+  "_disclose-version.BUSkuIA1.js": {
+    "file": "_app/immutable/chunks/disclose-version.BUSkuIA1.js",
+    "name": "disclose-version",
+    "imports": [
+      "_runtime.BA54F5W-.js"
+    ]
+  },
+  "_entry.Bdk3vF3U.js": {
+    "file": "_app/immutable/chunks/entry.Bdk3vF3U.js",
+    "name": "entry",
+    "imports": [
+      "_runtime.BA54F5W-.js",
+      "_index.StKBPifa.js"
+    ]
+  },
+  "_i18next.DUFf20pf.js": {
+    "file": "_app/immutable/chunks/i18next.DUFf20pf.js",
+    "name": "i18next"
+  },
+  "_index.StKBPifa.js": {
+    "file": "_app/immutable/chunks/index.StKBPifa.js",
+    "name": "index",
+    "imports": [
+      "_runtime.BA54F5W-.js"
+    ]
+  },
+  "_legacy.DkTdIhOY.js": {
+    "file": "_app/immutable/chunks/legacy.DkTdIhOY.js",
+    "name": "legacy",
+    "imports": [
+      "_runtime.BA54F5W-.js"
+    ]
+  },
+  "_preload-helper.CmsKOCeN.js": {
+    "file": "_app/immutable/chunks/preload-helper.CmsKOCeN.js",
+    "name": "preload-helper"
+  },
+  "_runtime.BA54F5W-.js": {
+    "file": "_app/immutable/chunks/runtime.BA54F5W-.js",
+    "name": "runtime"
+  },
+  "_store.Xw69ZH3z.js": {
+    "file": "_app/immutable/chunks/store.Xw69ZH3z.js",
+    "name": "store",
+    "imports": [
+      "_runtime.BA54F5W-.js",
+      "_disclose-version.BUSkuIA1.js"
+    ]
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.11.1_@sveltejs+vite-plugin-svelte@5.0.2_svelte@5.14.0_vite@6.0.3_jiti@1.21.6__xltfazr45rznvtmiu2jjy5g7uu/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "_app/immutable/entry/start.CQQxyzrk.js",
+    "name": "entry/start",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.11.1_@sveltejs+vite-plugin-svelte@5.0.2_svelte@5.14.0_vite@6.0.3_jiti@1.21.6__xltfazr45rznvtmiu2jjy5g7uu/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_entry.Bdk3vF3U.js"
+    ]
+  }
+}

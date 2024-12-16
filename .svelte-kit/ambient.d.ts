@@ -42,7 +42,6 @@ declare module '$env/static/private' {
 	export const LD_LIBRARY_PATH: string;
 	export const HOME: string;
 	export const CHROME_DESKTOP: string;
-	export const OLDPWD: string;
 	export const npm_package_devDependencies_clsx: string;
 	export const CMAKE_CUDA_COMPILER: string;
 	export const TERM_PROGRAM_VERSION: string;
@@ -83,6 +82,7 @@ declare module '$env/static/private' {
 	export const npm_package_private: string;
 	export const npm_package_scripts_check_watch: string;
 	export const npm_package_devDependencies_autoprefixer: string;
+	export const npm_package_dependencies_i18next_browser_languagedetector: string;
 	export const MEMORY_PRESSURE_WATCH: string;
 	export const XDG_SESSION_CLASS: string;
 	export const npm_package_scripts_lint: string;
@@ -106,6 +106,7 @@ declare module '$env/static/private' {
 	export const npm_config_frozen_lockfile: string;
 	export const DISPLAY: string;
 	export const npm_package_scripts_test_unit: string;
+	export const npm_package_scripts_svelte_check: string;
 	export const npm_package_devDependencies_tailwindcss_animate: string;
 	export const npm_package_dependencies__tailwindcss_container_queries: string;
 	export const LANG: string;
@@ -154,6 +155,7 @@ declare module '$env/static/private' {
 	export const PNPM_SCRIPT_SRC_DIR: string;
 	export const npm_package_scripts_preview: string;
 	export const npm_package_devDependencies_prettier_plugin_svelte: string;
+	export const npm_package_dependencies_i18next_http_backend: string;
 	export const MEMORY_PRESSURE_WRITE: string;
 	export const rvm_path: string;
 	export const npm_package_dependencies__tailwindcss_forms: string;
@@ -206,7 +208,6 @@ declare module '$env/dynamic/private' {
 		LD_LIBRARY_PATH: string;
 		HOME: string;
 		CHROME_DESKTOP: string;
-		OLDPWD: string;
 		npm_package_devDependencies_clsx: string;
 		CMAKE_CUDA_COMPILER: string;
 		TERM_PROGRAM_VERSION: string;
@@ -247,6 +248,7 @@ declare module '$env/dynamic/private' {
 		npm_package_private: string;
 		npm_package_scripts_check_watch: string;
 		npm_package_devDependencies_autoprefixer: string;
+		npm_package_dependencies_i18next_browser_languagedetector: string;
 		MEMORY_PRESSURE_WATCH: string;
 		XDG_SESSION_CLASS: string;
 		npm_package_scripts_lint: string;
@@ -270,6 +272,7 @@ declare module '$env/dynamic/private' {
 		npm_config_frozen_lockfile: string;
 		DISPLAY: string;
 		npm_package_scripts_test_unit: string;
+		npm_package_scripts_svelte_check: string;
 		npm_package_devDependencies_tailwindcss_animate: string;
 		npm_package_dependencies__tailwindcss_container_queries: string;
 		LANG: string;
@@ -318,6 +321,7 @@ declare module '$env/dynamic/private' {
 		PNPM_SCRIPT_SRC_DIR: string;
 		npm_package_scripts_preview: string;
 		npm_package_devDependencies_prettier_plugin_svelte: string;
+		npm_package_dependencies_i18next_http_backend: string;
 		MEMORY_PRESSURE_WRITE: string;
 		rvm_path: string;
 		npm_package_dependencies__tailwindcss_forms: string;
