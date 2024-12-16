@@ -52,6 +52,7 @@
     "i18next": "^24.1.0",
     "i18next-browser-languagedetector": "^8.0.2",
     "i18next-http-backend": "^3.0.1",
+    "i18next-resources-to-backend": "^1.2.1",
     "svelte-i18next": "^2.2.2"
   }
 }
