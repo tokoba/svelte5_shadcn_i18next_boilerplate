@@ -1,3 +1,16 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss"]
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "semi": false,
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "auto",
+    "endOfLine": "lf",
+    "proseWrap": "preserve",
+    "singleQuote": true,
+    "useTabs": false,
+    "svelteIndentScriptAndStyle": true,
+    "svelteBracketNewLine": false,
+    "svelteAllowShorthand": true,
+    "printWidth": 80
 }

@@ -68,6 +68,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_tailwindcss: string;
 	export const npm_package_devDependencies_typescript: string;
 	export const npm_package_dependencies__tailwindcss_typography: string;
+	export const npm_package_dependencies_i18next: string;
 	export const NVM_DIR: string;
 	export const DEBUGINFOD_URLS: string;
 	export const npm_package_scripts_dev: string;
@@ -116,6 +117,7 @@ declare module '$env/static/private' {
 	export const LS_COLORS: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const TERM_PROGRAM: string;
+	export const npm_package_dependencies_svelte_i18next: string;
 	export const npm_lifecycle_script: string;
 	export const SSH_AUTH_SOCK: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
@@ -230,6 +232,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_tailwindcss: string;
 		npm_package_devDependencies_typescript: string;
 		npm_package_dependencies__tailwindcss_typography: string;
+		npm_package_dependencies_i18next: string;
 		NVM_DIR: string;
 		DEBUGINFOD_URLS: string;
 		npm_package_scripts_dev: string;
@@ -278,6 +281,7 @@ declare module '$env/dynamic/private' {
 		LS_COLORS: string;
 		VSCODE_GIT_IPC_HANDLE: string;
 		TERM_PROGRAM: string;
+		npm_package_dependencies_svelte_i18next: string;
 		npm_lifecycle_script: string;
 		SSH_AUTH_SOCK: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;

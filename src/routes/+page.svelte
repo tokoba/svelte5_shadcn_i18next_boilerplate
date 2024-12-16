@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+import type { i18n } from 'i18next'
+import { getContext } from 'svelte'
+import type { Writable } from 'svelte/store'
+const i18nContext = getContext<Writable<i18n>>('i18n')
+</script>
+
+<div>
+    {$i18nContext.t('key')}
+</div>
