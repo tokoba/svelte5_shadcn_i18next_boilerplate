@@ -6,7 +6,8 @@ import frResource from '../locales/fr/resource.json';
 import deResource from '../locales/de/resource.json';
 import itResource from '../locales/it/resource.json';
 import esResource from '../locales/es/resource.json';
-import zhResource from '../locales/zh/resource.json';
+import zhCNResource from '../locales/zhCN/resource.json';
+import zhTWResource from '../locales/zhTW/resource.json';
 
 const resources = {
     en: {
@@ -27,8 +28,11 @@ const resources = {
     es: {
         resource: esResource,
     },
-    zh: {
-        resource: zhResource,
+    zhCN: {
+        resource: zhCNResource,
+    },
+    zhTW: {
+        resource: zhTWResource,
     },
 };
 console.log(resources)
@@ -43,7 +47,7 @@ await i18next
 .init({
     // lng: 'en',
     fallbackLng: 'en',
-    supportedLngs: ['en', 'ja', 'fr', 'de', 'it', 'es', 'zh'],
+    supportedLngs: ['en', 'ja', 'fr', 'de', 'it', 'es', 'zh-CN', 'zh-TW'],
     compatibilityJSON: 'v4',
     debug: true,
     ns: "resource",

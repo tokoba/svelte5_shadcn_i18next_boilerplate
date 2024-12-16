@@ -1,5 +1,6 @@
 <script lang="ts">
 import { ModeWatcher } from 'mode-watcher'
+
 import type { i18n } from 'i18next'
 import getI18nStore from '$lib/i18n'
 import { setContext } from 'svelte'

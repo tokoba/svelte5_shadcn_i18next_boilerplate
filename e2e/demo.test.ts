@@ -1,10 +1,10 @@
 import { expect, test } from '@playwright/test';
 
-test('home page has expected h2', async ({ page }) => {
+test('Top page has expected h2', async ({ page }) => {
 	await page.goto('/');
 	await expect(page.locator('h2')).toBeVisible();
 });
-test('ホームページ has expected h1', async ({ page }) => {
+test('Top page has expected h1', async ({ page }) => {
 	await page.goto('/');
 	await expect(page.locator('h1')).toBeVisible();
 });
