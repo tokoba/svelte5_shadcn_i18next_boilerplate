@@ -51,6 +51,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_eslint_plugin_svelte: string;
 	export const NVM_INC: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
+	export const npm_package_devDependencies__sveltejs_adapter_static: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
 	export const GTK_MODULES: string;
 	export const SDL_IM_MODULE: string;
@@ -217,6 +218,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_eslint_plugin_svelte: string;
 		NVM_INC: string;
 		GIO_LAUNCHED_DESKTOP_FILE: string;
+		npm_package_devDependencies__sveltejs_adapter_static: string;
 		GNOME_SHELL_SESSION_MODE: string;
 		GTK_MODULES: string;
 		SDL_IM_MODULE: string;
