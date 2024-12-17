@@ -67,6 +67,10 @@ You can customize the following svelte file.
 
 path: /src/components/custom/NavigationBar.svelte
 
+In this svelte file, I use "Mode-Watcher" and "Button" to toggle the dark/light theme.
+And I use "Dropdown-Menu" to switch the languages.
+This NavigationBar.svelte is put in the +layout.svelte, so that every pages will use this component and users can change modes and languages.
+
 ## direct import "resouce.json"
 
 This is just a plain boilerplate to show you how to use Svelte-i18next easily.
