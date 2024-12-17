@@ -90,6 +90,22 @@ pnpm dev
 google-chrome http://localhost:5173/
 ```
 
+# Unit Test
+
+The following command will run vitest - the test target file is "/src/demo.spec.ts".
+
+```bash
+pnpm test:unit
+```
+
+# System Integration Test
+
+The following command will run vitest and playwright - the test target file is "/src/demo.spec.ts" and "/e2e/demo.test.ts".
+
+```bash
+pnpm test
+```
+
 # Customize
 
 ## SSG(Static Site Generation) - Default
