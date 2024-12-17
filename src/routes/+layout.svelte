@@ -6,7 +6,7 @@ import getI18nStore from '$lib/i18n'
 import { setContext } from 'svelte'
 import type { Writable } from 'svelte/store'
 import '../app.css'
-
+import { siteConfig } from '../siteConfig'
 import NavigationBar from '$lib/components/custom/NavigationBar.svelte'
 
 /* setContext(key:'i18n') is a request-scoped store instance to avoid the issue with
@@ -20,7 +20,7 @@ let { children } = $props()
 </script>
 
 <svelte:head>
-    <title>Svelte-i18next Boilerplate</title>
+    <title>{siteConfig.title}</title>
 </svelte:head>
 <ModeWatcher />
 <NavigationBar />
