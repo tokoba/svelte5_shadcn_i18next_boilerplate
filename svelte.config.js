@@ -35,7 +35,6 @@ const config = {
         /* for SSR(Server Side Rendering), SPA(Single Page Application) set as follows
          */
         // adapter: adapter(), /* SSR, SPA */
-        outDir: 'dist',
     },
     '@/*': './path/to/lib/*',
 

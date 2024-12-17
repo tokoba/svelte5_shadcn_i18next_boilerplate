@@ -65,6 +65,7 @@ declare module '$env/static/private' {
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const COLORTERM: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
+	export const npm_package_devDependencies_lucide_svelte: string;
 	export const npm_package_devDependencies_tailwindcss: string;
 	export const npm_package_devDependencies_typescript: string;
 	export const npm_package_dependencies__tailwindcss_typography: string;
@@ -83,7 +84,6 @@ declare module '$env/static/private' {
 	export const npm_package_private: string;
 	export const npm_package_scripts_check_watch: string;
 	export const npm_package_devDependencies_autoprefixer: string;
-	export const npm_package_dependencies_i18next_browser_languagedetector: string;
 	export const MEMORY_PRESSURE_WATCH: string;
 	export const XDG_SESSION_CLASS: string;
 	export const npm_package_scripts_lint: string;
@@ -156,10 +156,11 @@ declare module '$env/static/private' {
 	export const PNPM_SCRIPT_SRC_DIR: string;
 	export const npm_package_scripts_preview: string;
 	export const npm_package_devDependencies_prettier_plugin_svelte: string;
-	export const npm_package_dependencies_i18next_http_backend: string;
+	export const npm_package_dependencies_mode_watcher: string;
 	export const MEMORY_PRESSURE_WRITE: string;
 	export const rvm_path: string;
 	export const npm_package_dependencies__tailwindcss_forms: string;
+	export const npm_package_dependencies__tanstack_table_core: string;
 	export const INIT_CWD: string;
 	export const NODE_ENV: string;
 }
@@ -232,6 +233,7 @@ declare module '$env/dynamic/private' {
 		DBUS_SESSION_BUS_ADDRESS: string;
 		COLORTERM: string;
 		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
+		npm_package_devDependencies_lucide_svelte: string;
 		npm_package_devDependencies_tailwindcss: string;
 		npm_package_devDependencies_typescript: string;
 		npm_package_dependencies__tailwindcss_typography: string;
@@ -250,7 +252,6 @@ declare module '$env/dynamic/private' {
 		npm_package_private: string;
 		npm_package_scripts_check_watch: string;
 		npm_package_devDependencies_autoprefixer: string;
-		npm_package_dependencies_i18next_browser_languagedetector: string;
 		MEMORY_PRESSURE_WATCH: string;
 		XDG_SESSION_CLASS: string;
 		npm_package_scripts_lint: string;
@@ -323,10 +324,11 @@ declare module '$env/dynamic/private' {
 		PNPM_SCRIPT_SRC_DIR: string;
 		npm_package_scripts_preview: string;
 		npm_package_devDependencies_prettier_plugin_svelte: string;
-		npm_package_dependencies_i18next_http_backend: string;
+		npm_package_dependencies_mode_watcher: string;
 		MEMORY_PRESSURE_WRITE: string;
 		rvm_path: string;
 		npm_package_dependencies__tailwindcss_forms: string;
+		npm_package_dependencies__tanstack_table_core: string;
 		INIT_CWD: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
