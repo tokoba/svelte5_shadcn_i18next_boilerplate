@@ -10,7 +10,7 @@ In this boilerplate I use [svelte-i18next](https://www.npmjs.com/package/svelte-
 
 I have tried some, such as [inlang Paragride-SvelteKit](https://inlang.com/m/dxnzrydw/paraglide-sveltekit-i18n) however I already get used to i18n-React so I would not like to use "internationalized Routing" architecture.
 
-- internationalized Routing
+1. internationalized Routing
 
 If you have several languages, en, de, es etc, when you change the language using Paragride, it will automatically served as follows:
 
@@ -19,6 +19,44 @@ If you have several languages, en, de, es etc, when you change the language usin
 - /es/about
 
 The address will be automatically redirected above. This solution is in some case really useful, but I would rather use word-by-word, sentence-by-sentence translation. I decided to stick with plain i18n.
+
+# Overview of the project
+
+Please read the comments below.
+
+```bash
+my-project/
+├ src/
+│ ├ lib/
+│ │ ├ components/
+│ │ │ ├ custom/
+│ │ │ │ └ NavigationBar.svelte # The top navigation bar contains theme-toggler and "i18next Language Switch".
+│ │ │ └ ui
+│ │ │    └ [shadcn-svelte ui components here] # I use Dropdown and Button, Mode-Watcher of shadcn-svelte.
+│ │ ├ i18n.ts # The i18n is initialized here. You can add/custom languages. Edit the resource, label table in this file.
+│ │ └ [your lib files]
+│ ├ locales/
+│ │ └ [your resource files] # Put your custom language resource here. Create language directory and import it in i18n.ts.
+│ ├ routes/
+│ │ ├ +layout.svelte # This file set the Context of i18next.
+│ │ ├ +layout.ts
+│ │ ├ +page.svelte # Each page get the COntext of i18next.
+│ │ └ [your custom directories]
+│ │     └ +page.svelte # create directories and add +page.svelte here. Sveltekit will route automatically.
+│ ├ app.css
+│ ├ app.d.ts
+│ ├ app.html
+│ ├ demo.specs.ts # vitest test sample code
+│ └ siteConfig.ts # Customize the page title etc.
+├ static/
+│ └ [your static assets]
+├ tests/
+│ └ [your tests]
+├ package.json
+├ svelte.config.js
+├ tsconfig.json
+└ vite.config.js
+```
 
 # Instruction
 
