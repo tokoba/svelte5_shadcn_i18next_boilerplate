@@ -58,7 +58,7 @@ const languages: Language[] = [
 ]
 </script>
 
-<nav class="flex items-center justify-between bg-white p-4 dark:bg-gray-800">
+<nav class="flex items-center justify-between bg-gray-100 p-4 dark:bg-gray-800">
     <div class="flex items-center space-x-2">
         <img src="/i18next-icon.svg" alt="Logo" class="h-6 w-6" />
         <!-- アイコンのパスを適切に設定してください -->
