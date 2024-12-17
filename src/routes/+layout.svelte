@@ -9,7 +9,7 @@ import '../app.css'
 
 import NavigationBar from '$lib/components/custom/NavigationBar.svelte'
 
-/* setContext() is a request-scoped store instance to avoid the issue with
+/* setContext(key:'i18n') is a request-scoped store instance to avoid the issue with
  * sveltekit-SSR, when you change languages on the server, it attects server
  * state and change the languages on other person's browser.
  */

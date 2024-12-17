@@ -7,6 +7,7 @@ import { toggleMode } from 'mode-watcher'
 import { Button } from '$lib/components/ui/button/index.js'
 
 /* i18next translation */
+import { languages } from '../../i18n';
 import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js'
 import { buttonVariants } from '$lib/components/ui/button/index.js'
 import { type i18n } from 'i18next'
@@ -27,6 +28,7 @@ onMount(async () => {
      */
     const savedLanguage = localStorage.getItem('locale') || 'en'
     await $i18nContext.changeLanguage(savedLanguage)
+    lang = savedLanguage /* update the lang variable using local storage */
     console.log('[navi] language:', $i18nContext.language) // debug
     console.log('[navi] currentLanguage:', currentLanguage) // debug
 })
@@ -39,23 +41,6 @@ function switchLanguage(nextLanguage: string) {
     console.log('[navi] currentLanguage:', currentLanguage)
 }
 
-interface Language {
-    value: string
-    label: string
-}
-/* language resource definition is set on i18n.ts
- * the following list of languages need to be corresponded to the definition.
- */
-const languages: Language[] = [
-    { value: 'en', label: 'English' },
-    { value: 'ja', label: '日本語' },
-    { value: 'fr', label: 'French' },
-    { value: 'de', label: 'Deutsch' },
-    { value: 'it', label: 'Italiano' },
-    { value: 'es', label: 'Español' },
-    { value: 'zhCN', label: '简体中文' },
-    { value: 'zhTW', label: '繁体中文' },
-]
 </script>
 
 <nav class="flex items-center justify-between bg-gray-100 p-4 dark:bg-gray-800">

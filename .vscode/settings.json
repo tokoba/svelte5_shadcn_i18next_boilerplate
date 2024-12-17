@@ -1,7 +1,17 @@
 {
     "files.encoding": "utf8",
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "svelte.plugin.svelte.defaultScriptLanguage": "ts",
-    "svelte.plugin.svelte.format.config.singleQuote": true
+    "svelte.plugin.svelte.format.config.singleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.bracketSpacing": true,
+    "prettier.printWidth": 80,
+    "prettier.proseWrap": "preserve",
+    "prettier.endOfLine": "lf",
+    "prettier.embeddedLanguageFormatting": "auto"
 }
