@@ -1,4 +1,7 @@
 {
     "Hello": "Hola",
-    "World": "Mundo"
+    "World": "Mundo",
+    "TemperatureConverter": "Convertidor de Temperatura",
+    "tempconverter_description": "Convertidor bidireccional entre Celsius y Fahrenheit",
+    "tempconverter_contents": "El atributo rune de Svelte 5 puede importar un estado reactivo definido en Filename.svelte.ts/.js"
 }

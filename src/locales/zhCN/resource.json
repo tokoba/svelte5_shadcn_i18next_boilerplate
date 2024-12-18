@@ -1,4 +1,7 @@
 {
     "Hello": "你好",
-    "World": "世界"
+    "World": "世界",
+    "TemperatureConverter": "温度转换器",
+    "tempconverter_description": "摄氏度和华氏度之间的双向转换器",
+    "tempconverter_contents": "Svelte 5的rune属性可以导入在Filename.svelte.ts/.js中定义的响应式状态"
 }

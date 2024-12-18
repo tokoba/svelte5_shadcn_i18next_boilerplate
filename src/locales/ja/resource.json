@@ -1,4 +1,7 @@
 {
     "Hello": "こんにちは",
-    "World": "世界"
+    "World": "世界",
+    "TemperatureConverter": "温度換算器",
+    "tempconverter_description": "摂氏と華氏の両方向で温度を換算します",
+    "tempconverter_contents": "Svelte 5のrune属性は、Filename.svelte.ts/.js内で定義されたリアクティブな状態をインポートできます"
 }

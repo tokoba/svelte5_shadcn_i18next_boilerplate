@@ -1,4 +1,7 @@
 {
     "Hello": "Hello",
-    "World": "World"
+    "World": "World",
+    "TemperatureConverter": "Temperature Converter",
+    "tempconverter_description": "Bidirectional Convertet between Celsius to Fahrenheit",
+    "tempconverter_contents": "Svelte 5's rune attribute can imports reactive state which is defined inside Filename.svelte.ts/.js"
 }
